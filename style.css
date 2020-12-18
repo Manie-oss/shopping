@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("img/shop.jpg");
+  background-size: cover;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+}
+
+.left {
+  /* border: 3px solid red; */
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  cursor: pointer;
+}
+
+.mid {
+  /* border: 3px solid red; */
+  display: block;
+  width: 40%;
+  margin: 32px auto;
+}
+
+.right {
+  /* border: 3px solid red; */
+  display: inline-block;
+  position: absolute;
+  right: 32px;
+  top: 23px;
+}
+
+img {
+  height: 66px;
+  width: 93px;
+  border: none;
+  border-radius: 5px;
+}
+
+h4 {
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.nav li a:hover {
+  color: grey;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 6px;
+  margin: -2px 4px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  background-color: black;
+  color: grey;
+  border: 1px solid grey;
+}
+
+.btn:hover {
+  color: dimgrey;
+}
+
+.container {
+  border: 1px solid white;
+  margin: 106px 650px;
+  padding: 40px;
+  width: 30%;
+  border-radius: 28px;
+  font-size: 15px;
+  color: white;
+}
+
+.form-group input {
+  font-family: "Baloo Bhai", cursive;
+  text-align: center;
+  display: block;
+  width: 300px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container h4 {
+    text-align: center;
+    padding-top: 0px;
+  }
+
+.container button {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 3px;
+}
